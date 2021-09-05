@@ -16,7 +16,7 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        //C:\Users\Amigo\OneDrive\Рабочий стол\documentNumbers.txt
+       
         System.out.print("Enter path to file: ");
         String path = new Scanner(System.in).nextLine();
 
