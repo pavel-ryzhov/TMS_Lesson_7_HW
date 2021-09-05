@@ -24,7 +24,7 @@ public class Main {
         try {
             docnums = Files.readAllLines(Paths.get(path));
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Read error");
             return;
         }
 
